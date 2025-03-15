@@ -4,7 +4,8 @@ const divide = (arr, n) => {
 	function chunkArray[myArray,chunkSize]{
 		let index=0;
 		while(index<myArray.length){
-			results.push(arr.slice(index,index+chunkSize));
+			results.push(
+				arr.slice(index,index+chunkSize));
 			index+= chunkSize;
 		}
 		return index;
