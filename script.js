@@ -7,7 +7,7 @@ const divide = (arr, n) => {
 			results.push(arr.slice(index,index+chunkSize));
 			index+= chunkSize;
 		}
-		return results;
+		return index;
 	}
   // Write your code here
 };
