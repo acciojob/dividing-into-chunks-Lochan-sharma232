@@ -17,7 +17,7 @@ const divide = (arr, n) => {
     if(temp.length !== 0) {
         result.push(temp);
     }
-    console.log(result);
+return result;
 };
 //let arr=[1,2,3]//subaarray
 /* [1,2,3]
@@ -28,5 +28,6 @@ const divide = (arr, n) => {
 [3]
 */
 
-// const n = prompt("Enter n: ");
+//  const n = prompt("Enter n: ");
+
 // alert(JSON.stringify(divide(arr, n)));
